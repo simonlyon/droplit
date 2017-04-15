@@ -24,7 +24,7 @@ h6 {
 .intro-header {
     padding-top: 50px;
     padding-bottom: 50px;
-    text-align: center;
+    text-align: left;
     color: #f8f8f8;
     background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
@@ -39,7 +39,7 @@ h6 {
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-    font-size: 5em;
+    font-size: 4.5em;
 }
 
 .intro-divider {
@@ -176,8 +176,18 @@ p.copyright {
       background: #3366cc;
   }
 
+  .container-product > h1 {
+      margin: 0;
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+      font-size: 4.5em;
+  }
+
+  .container-product > h3 {
+      text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+
   .container-product {
-    width: 400px;
+    width: 500px;
     display: inline-block;
     text-align: left;
   }
@@ -188,18 +198,11 @@ p.copyright {
       text-align:center;
   }
 
-  .container-second {
-      display: inline-block;
-      text-align: left;
-  }
-
   .second-message-product {
-      padding-top: 200px;
-      padding-bottom: 200px;
+      padding-top: 150px;
+      padding-bottom: 150px;
       text-align: center;
       position: relative;
-      background-color: #f8f8f8;
-      border: 1px Solid Grey;
   }
 
   .intro-divider-product {
@@ -250,13 +253,13 @@ p.copyright {
       background: #3366cc;
   }
 
-  .testimonial-message-product {
-      padding-top: 200px;
-      padding-bottom: 200px;
-      text-align: center;
-      position: relative;
-      background-color: #f8f8f8;
-      border: 1px Solid Grey;
+.testimonial-message-product {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    position: relative;
+    background-color: #f8f8f8;
+    border: 1px Solid Grey;
   }
 
 .container-testimonial {
@@ -266,15 +269,18 @@ p.copyright {
   margin: 0 auto;
 }
 
-  .container-testimonial > h1 {
+.container-testimonial > h1 {
+  display: inline;
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 4.5em;
+  }
+
+  .container-testimonial > h3 {
     display: inline;
   }
 
-  .container-testimonial > h4 {
-    display: inline;
-  }
-
-  .container-testimonial > h6 {
+  .container-testimonial > h5 {
     text-align: right;
     font-style: italic;
   }
@@ -309,6 +315,9 @@ p.copyright {
   .about-block, .team-block {
     padding: 50px 100px;
   }
+
+    /* Kate's Home Page Custom CSS*/
+
 
   /*Simon added*/
   .intro-header {
@@ -357,37 +366,30 @@ p.copyright {
     background-size: cover;
 }
 
-/* Thomas' CSS*/
-
-.row-why{
-    padding: 100px;
-    min-padding-left: 100px;
-    text-align: left;
-    margin-left: auto;
+/*.row-why{
     background: url("http://meche.mit.edu/sites/default/files/styles/hero/public/slides/Research%20Oceans.jpg?itok=okSrE16D") no-repeat center center;
     background-size: cover;
     min-width: 300px;
-    color: #f8f8f8
+    color: #f8f8f8;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    position: relative;*/
+
 
 }
 
-
-/* Thomas' CSS*/
 row.no-gutters {
   margin-right: 0;
   margin-left: 0;
 }
 
-/* Thomas' CSS*/
 .row.no-gutters > [class^="col-"],
 .row.no-gutters > [class*=" col-"] {
   padding-right: 0;
   padding-left: 0;
 }
 
-
-/* Thomas' CSS*/
 .container-text {
     padding: 100px;
-
 }

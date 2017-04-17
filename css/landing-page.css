@@ -320,6 +320,10 @@ p.copyright {
     text-transform: uppercase;
   }
 
+  .btn-body {
+    width: 175px;
+  }
+
   .intro-header-team {
     background: url(../img/cats.jpeg) no-repeat center center;
   }
@@ -332,6 +336,9 @@ p.copyright {
 
     /* Kate's Home Page Custom CSS*/
   /*for nav*/
+  .btn-nav {
+    margin-left: 20px;
+  }
 
   /*Add the below transitions to allow a smooth color change similar to lyft*/
   .navbar {

@@ -17,8 +17,26 @@ h3,
 h4,
 h5,
 h6 {
-    font-family:  "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:  "Monserrat", Helvetica, Arial, sans-serif;
     font-weight: 400;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family:  "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 20px;
 }
 
 .intro-header {
@@ -39,7 +57,6 @@ h6 {
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-    font-size: 4.5em;
 }
 
 .intro-divider {
@@ -56,9 +73,7 @@ h6 {
     .intro-message {
         padding-bottom: 15%;
     }
-    .intro-message > h1 {
-        font-size: 3em;
-    }
+
     ul.intro-social-buttons > li {
         display: block;
         margin-bottom: 20px;
@@ -179,7 +194,7 @@ p.copyright {
   .container-product > h1 {
       margin: 0;
       text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-      font-size: 4.5em;
+
   }
 
   .container-product > h3 {
@@ -273,7 +288,6 @@ p.copyright {
   display: inline;
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  font-size: 4.5em;
   }
 
   .container-testimonial > h3 {
@@ -317,6 +331,21 @@ p.copyright {
   }
 
     /* Kate's Home Page Custom CSS*/
+  /*for nav*/
+
+  /*Add the below transitions to allow a smooth color change similar to lyft*/
+  .navbar {
+      -webkit-transition: all 0.6s ease-out;
+      -moz-transition: all 0.6s ease-out;
+      -o-transition: all 0.6s ease-out;
+      -ms-transition: all 0.6s ease-out;
+      transition: all 0.6s ease-out;
+  }
+
+  .navbar.scrolled {
+      background: rgb(247,247,247); //
+      background: rgba(247,247,247,.8); //NON-IE
+  }
 
 
   /*Simon added*/

@@ -174,27 +174,10 @@ p.copyright {
 
 /* Kate's custom CSS */
 
-.intro-header-product {
-    /*background: url(../img/intro-bg.jpg) no-repeat center center;
-    position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
-    background-size: cover;*/
-    text-align: center;
-  }
-
 .intro-message > h2, .intro-message > p {
   color: White;
 }
 
-  .intro-message-product {
-      padding-top: 100px;
-      padding-bottom: 50px;
-      text-align: center;
-      position: relative;
-      color: #f8f8f8;
-      background: #3366cc;
-  }
 
   .container-product > h1 {
       margin: 0;
@@ -231,7 +214,7 @@ p.copyright {
       border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   }
 
-  .blueSH {
+  /*.blueSH {
       background: url(../img/blue.jpg) no-repeat center center;
       position: relative;
       display: inline-block;
@@ -256,7 +239,7 @@ p.copyright {
       padding-top: 20%;
       padding-bottom: 20%;
       background-size: cover;
-  }
+  }*/
 
   .banner-product {
       padding: 100px 0;

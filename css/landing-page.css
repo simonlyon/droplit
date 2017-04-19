@@ -373,6 +373,26 @@ section.features .section-heading p {
     background: url(../img/cats.jpeg) no-repeat center center;
   }
 
+  .apply {
+    font-size: 20px;
+    font-family:  "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #3BB0CB;
+  }
+
+  .apply:hover {
+    color: #B9E2ED;
+    font-size: 20px;
+    font-family:  "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+  }
+
+  h4 {
+    font-size: 28px;
+    margin-top: 15px;
+    text-align: center;
+  }
+
     /* Kate's Home Page Custom CSS*/
   /*for nav*/
   .btn-nav {

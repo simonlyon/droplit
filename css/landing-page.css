@@ -192,7 +192,7 @@ p.copyright {
   .container-product {
     width: 500px;
     display: inline-block;
-    text-align: left;
+
   }
 
 
@@ -214,7 +214,7 @@ p.copyright {
       border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   }
 
-  /*.blueSH {
+  .blueSH {
       background: url(../img/blue.jpg) no-repeat center center;
       position: relative;
       display: inline-block;
@@ -239,7 +239,7 @@ p.copyright {
       padding-top: 20%;
       padding-bottom: 20%;
       background-size: cover;
-  }*/
+  }
 
   .banner-product {
       padding: 100px 0;
@@ -383,6 +383,23 @@ section.features .section-heading p {
     font-size: 13px;
   }
 
+  .current-link {
+    color: #5E70B5;
+    font-size: 17px;
+    display: inline-block;
+    padding: .45em .5em;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    cursor: default;
+  }
+
+  .current-link:focus,
+  .current-link:hover {
+      color: rgba(185,226,237, .9);
+      font-size:17px
+  }
+
   /*Add the below transitions to allow a smooth color change similar to lyft*/
   .navbar {
       -webkit-transition: all 0.6s ease-out;
@@ -451,7 +468,7 @@ section.features .section-heading p {
   }
 
   /* Thomas' CSS*/
-.intro-header-why {
+/*.intro-header-why {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -460,7 +477,7 @@ section.features .section-heading p {
     background-size: cover;
 }
 
-/*.row-why{
+.row-why{
     background: url("http://meche.mit.edu/sites/default/files/styles/hero/public/slides/Research%20Oceans.jpg?itok=okSrE16D") no-repeat center center;
     background-size: cover;
     min-width: 300px;
@@ -468,7 +485,7 @@ section.features .section-heading p {
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
-    position: relative;*/
+    position: relative;
 
 
 }
@@ -486,4 +503,4 @@ row.no-gutters {
 
 .container-text {
     padding: 100px;
-}
+}*/

@@ -316,6 +316,52 @@ p.copyright {
     font-size: 17px;
   }
 
+/* for download app module - from new-age bootstrap template*/
+section {
+  padding: 100px 0;
+}
+/*section h2 {
+  font-size: 50px;
+}*/
+section.download {
+  padding: 150px 0;
+  position: relative;
+}
+/*section.download h2 {
+  margin-top: 0;
+  font-size: 50px;
+}*/
+section.download .badges .badge-link {
+  display: block;
+  margin-bottom: 25px;
+}
+section.download .badges .badge-link:last-child {
+  margin-bottom: 0;
+}
+section.download .badges .badge-link img {
+  height: 60px;
+}
+@media (min-width: 768px) {
+  section.download .badges .badge-link {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+/*@media (min-width: 768px) {
+  section.download h2 {
+    font-size: 70px;
+  }
+}*/
+
+section.features .section-heading {
+  margin-bottom: 100px;
+}
+section.features .section-heading h2 {
+  margin-top: 0;
+}
+section.features .section-heading p {
+  margin-bottom: 0;
+}
 
   /* Kate's Team Page Custom CSS*/
 

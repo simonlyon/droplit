@@ -57,7 +57,7 @@
                          <a class="nav-link" href="team.html">Team</a>
                      </li>
                      <li class="nav-item">
-                       <a href="#" class="btn btn-secondary btn-med btn-nav"><span class="network-name">Preorder Now</span></a>
+                       <a class="btn btn-secondary btn-med btn-nav center-block" data-toggle="modal" data-target="#squarespaceModal"><span class="network-name">Preorder Now</span></a>
                      </li>
                  </ul>
              </div>
@@ -274,6 +274,34 @@
 
         </div>
     </footer>
+
+
+    <!-- line modal -->
+      <div class="modal fade" id="squarespaceModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content-2">
+            <div class="modal-header">
+              <h3 class="modal-title" id="lineModalLabel"><br>Thank you for your interest in Droplit!</h3>
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+            </div>
+          <div class="modal-body">
+
+                <!-- content goes here -->
+          <form>
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="ENTER YOUR EMAIL">
+                  </div>
+
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">I also want to be signed up for Droplit's newsletter.
+                    </label>
+                  </div>
+                  <button type="submit" data-dismiss="modal" role="button" class="btn btn-default btn-form">Submit</button>
+                </form>
+
+        </div>
+      </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor-product/jquery/jquery.min.js"></script>

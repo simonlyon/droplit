@@ -301,11 +301,6 @@ p.copyright {
     color: #fff;
   }
 
-  .otherBtn {
-    font-size: 20px;
-    text-transform: uppercase;
-  }
-
   .btn-body {
     width: 175px;
   }
@@ -399,17 +394,14 @@ section.features .section-heading p {
   /*for nav*/
   .btn-nav {
     margin-left: 20px;
-    width: 175px;
-    height: 38px;
+  }
+
+  .network-name {
+    font-size: 13px;
   }
 
   .btn-nav:hover {
     font-size: 1rem;
-  }
-
-
-  .network-name {
-    font-size: 13px;
   }
 
   .current-link {
@@ -428,6 +420,40 @@ section.features .section-heading p {
       color: rgba(185,226,237, .9);
       font-size:17px
   }
+/*for form*/
+  .center {
+    margin-top:50px;
+}
+
+.modal-header {
+	padding-bottom: 5px;
+}
+
+
+.modal-footer .btn-group button {
+	height:40px;
+	border-top-left-radius : 0;
+	border-top-right-radius : 0;
+	border: none;
+	border-right: 1px solid #ddd;
+}
+
+.modal-footer .btn-group:last-child > button {
+	border-right: 0;
+}
+
+button.close {
+  margin-top: -2em;
+}
+
+.btn-form {
+  margin-top: 3em;
+}
+
+.modal-title {
+  text-transform: none;
+  margin: 0 auto;
+}
 
   /*Add the below transitions to allow a smooth color change similar to lyft*/
   .navbar {

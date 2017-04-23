@@ -314,6 +314,10 @@ p.copyright {
     font-size: 17px;
   }
 
+  placeholder {
+    font-family: "Montserrat", Helvetica, sans-serif;
+  }
+
 /* for download app module - from new-age bootstrap template*/
 section {
   padding: 100px 0;
@@ -397,14 +401,10 @@ section.features .section-heading p {
     margin-left: 20px;
     width: 175px;
     height: 38px;
-    padding-top: 8px;
   }
 
   .btn-nav:hover {
-    margin-left: 20px;
-    width: 175px;
-    height: 38px;
-    padding-top: 11px;
+    font-size: 1rem;
   }
 
 
@@ -459,7 +459,9 @@ section.features .section-heading p {
   padding-top: 9px;
 }
 
-
+.foot-menu {
+  padding: 0 30px;
+}
 
 
   /*Simon added*/

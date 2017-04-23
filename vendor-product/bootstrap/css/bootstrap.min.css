@@ -346,13 +346,13 @@ blockquote {
 a {
     color: #444444;
     text-decoration: none;
-    font-family:  "Monserrat", Helvetica, Arial, sans-serif;
+    font-family:  "Montserrat", Helvetica, Arial, sans-serif;
     font-size: 13px;
 }
 a:focus,
 a:hover {
     color: #3BB0CB;
-    font-family:  "Monserrat", Helvetica, Arial, sans-serif;
+    font-family:  "Montserrat", Helvetica, Arial, sans-serif;
     font-size: 13px;
 
 }
@@ -587,7 +587,7 @@ mark {
 }
 .img-fluid {
     max-width: 100%;
-    
+
     /*height: auto*/
 }
 .img-thumbnail {

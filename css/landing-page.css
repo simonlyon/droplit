@@ -291,13 +291,13 @@ p.copyright {
   }
 
   .col-md-4 > i {
-    border: 1px Solid Grey;
-    border-radius: 5px 20px 5px;
+    border: 1px Solid #3BB0CB;
+    border-radius: 50%;
     width: 150px;
     height: 150px;
     padding: 30px;
-    box-shadow: 2px 2px 4px #888;
-    background: #3366cc;
+    box-shadow: 2px 2px 4px #AAAAAA;
+    background: #3BB0CB;
     color: #fff;
   }
 
@@ -563,3 +563,76 @@ row.no-gutters {
 .container-text {
     padding: 100px;
 }*/
+
+
+/*for mobile*/
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+      background: rgb(247,247,247); //
+      background: rgba(247,247,247,.8); //NON-IE}
+
+  .navbar-brand {
+    padding: 0;
+  }
+
+  .navbar-brand > img {
+    width: 80%;
+  }
+
+  .btn-nav {
+    margin: 10px auto;
+  }
+
+  .navbar-nav, .navbar-link {
+    text-align: center;
+  }
+
+  .right-list {
+    float: none;
+  }
+
+  .container-product {
+    width: 80%;
+}
+
+  .second-message-product {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+  .about-block, .team-block {
+    padding: 10%;
+  }
+
+  .intro-header-team {
+    padding: 40% 0;
+  }
+
+  .intro-header-4 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .features-product {
+    padding: 75px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+}

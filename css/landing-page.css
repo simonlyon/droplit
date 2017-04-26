@@ -46,8 +46,6 @@ p {
     padding-bottom: 50px;
     text-align: left;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
-    background-size: cover;
 }
 
 .intro-message {
@@ -97,12 +95,16 @@ p {
 }
 
 .content-section-a {
-    padding: 50px 0;
+    padding: 150px 0 0 0;
 
 }
 
 .content-section-b {
-    padding: 50px 0;
+    padding: 150px 0 0 0;
+}
+
+.app-pic {
+  margin-top: -30px;
 }
 
 .section-heading {
@@ -190,9 +192,7 @@ p.copyright {
   .container-product {
     width: 500px;
     display: inline-block;
-
   }
-
 
   .body-product {
       position: relative;
@@ -200,8 +200,8 @@ p.copyright {
   }
 
   .second-message-product {
-      padding-top: 150px;
-      padding-bottom: 150px;
+      padding-top: 75px;
+      padding-bottom: 75px;
       text-align: center;
       position: relative;
   }
@@ -244,14 +244,6 @@ p.copyright {
       color: #f8f8f8;
       background: #3366cc;
       background-size: cover;
-  }
-
-  .content-section-b-product {
-      padding: 50px 0;
-      border-top: 1px solid #e7e7e7;
-      border-bottom: 1px solid #e7e7e7;
-      color: #f8f8f8;
-      background: #3366cc;
   }
 
 .testimonial-message-product {
@@ -314,10 +306,10 @@ p.copyright {
   }
 
 /* for download app module - from new-age bootstrap template*/
-section {
+/*section {
   padding: 100px 0;
 }
-/*section h2 {
+section h2 {
   font-size: 50px;
 }*/
 section.download {
@@ -495,9 +487,13 @@ button.close {
       padding-top: 50px;
       padding-bottom: 50px;
       color: #f8f8f8;
-      background: url(../img/showerhead.jpg) no-repeat center center;
-      background-size: cover;
   }
+
+  .home-hero {
+    background: url(../img/homepage_hero.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
   .intro-header-1 {
     padding-top: 150px;
     padding-bottom: 150px;
@@ -515,10 +511,8 @@ button.close {
       color: #000000;
   }
   .intro-header-4 {
-      padding-top: 200px;
-      padding-bottom: 200px;
-      /*background: url(../img/banner-save.jpg) no-repeat center center;
-      background-size: cover;*/
+      padding-top: 150px;
+      padding-bottom: 150px;
   }
   .intro-header-5 {
       padding-top: 50px;
@@ -637,6 +631,17 @@ row.no-gutters {
 
 }
 
+/*for copy and image stacking at smaller screen*/
+
+@media only screen and (max-width: 1000px) {
+  .img-fluid {
+    margin-top: 5%;
+  }
+  .app-pic {
+    margin-left: -5.5em;
+  }
+
+}
 
 /*Simon Added #2*/
 .video-main {
@@ -656,10 +661,10 @@ section[role="banner"] {
   height: 500px
 }
 #wrapper-video {
-  top: 20%;
-  left: 50%;
   width: 100%;
-  height: 100%;
+  overflow: hidden;
+  display: block;
+  height: 500px;
 }
 #wrapper-video video {
   position: relative;

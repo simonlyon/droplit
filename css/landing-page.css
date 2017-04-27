@@ -54,6 +54,12 @@ p {
     padding-bottom: 20%;
 }
 
+.no-message {
+    position: relative;
+    padding-top: 25%;
+    padding-bottom: 15%;
+}
+
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
@@ -346,7 +352,7 @@ section.features .section-heading p {
   }
 
   .intro-header-team {
-    background: url(../img/cats.jpeg) no-repeat center center;
+    background: url(https://cdn-images-1.medium.com/max/600/1*QXbsXoFNyj5SQT4D6TdLpA@2x.png) no-repeat center center;
   }
 
   .apply {
@@ -670,7 +676,7 @@ section[role="banner"] {
   width: 110%;
   max-width: 500px;
   display: block;
-  height: 470px;  
+  height: 470px;
   overflow: hidden;
 }
 #product-video video {

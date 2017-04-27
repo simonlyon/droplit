@@ -641,16 +641,7 @@ row.no-gutters {
 }
 
 /*Simon Added #2*/
-.video-main {
-align-content: center;
-width: 100% auto;
-height: 500px;
-background-size: cover;
-}
 
-.video-main video {
-  width: 100%;
-}
 
 section[role="banner"] {
   position: relative;
@@ -673,6 +664,25 @@ section[role="banner"] {
   width: 100%;
   min-width: 50%;
   min-height: 20%;
+}
+
+#product-video {
+  width: 110%;
+  max-width: 500px;
+  display: block;
+  height: 470px;  
+  overflow: hidden;
+}
+#product-video video {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  min-width: 50%;
+  min-height: 50%;
 }
 
 .counter {

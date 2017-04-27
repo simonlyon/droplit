@@ -279,18 +279,12 @@ p.copyright {
 
   .features-product {
     text-align: center;
-    padding: 200px 100px 100px 100px;
+    padding: 100px 100px 100px 100px;
   }
 
-  .col-md-4 > i {
-    border: 1px Solid #3BB0CB;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    padding: 30px;
-    box-shadow: 2px 2px 4px #AAAAAA;
-    background: #3BB0CB;
-    color: #fff;
+  .feature-icon {
+    width: 200px;
+    height: 200px;
   }
 
   .btn-body {
@@ -491,6 +485,11 @@ button.close {
 
   .home-hero {
     background: url(../img/homepage_hero_2.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
+  .product-hero {
+    background: url(../img/productpage_hero.jpg) no-repeat center center;
     background-size: cover;
   }
 

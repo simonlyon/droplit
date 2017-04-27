@@ -54,6 +54,12 @@ p {
     padding-bottom: 20%;
 }
 
+.no-message {
+    position: relative;
+    padding-top: 25%;
+    padding-bottom: 15%;
+}
+
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
@@ -177,6 +183,9 @@ p.copyright {
 
 
 /* Kate's custom CSS */
+.navbar-brand {
+  margin-left: -15px
+}
 
 .intro-message > h2, .intro-message > p {
   color: White;
@@ -205,31 +214,36 @@ p.copyright {
       border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   }
 
-  .blueSH {
-      background: url(../img/blue.jpg) no-repeat center center;
+  .gal1 {
+      background: url(../img/gal1.jpg) no-repeat center center;
       position: relative;
       display: inline-block;
-      padding-top: 20%;
-      padding-bottom: 20%;
-      background-size: cover;
+      background-size: auto;
+      height: 450px;
   }
 
-  .redSH {
-      background: url(../img/red.jpg) no-repeat center center;
+  .gal2 {
+      background: url(../img/gal2.jpg) no-repeat center center;
       position: relative;
       display: inline-block;
-      padding-top: 20%;
-      padding-bottom: 20%;
-      background-size: cover;
+      background-size: auto;
+      height: 450px;
   }
 
-  .greenSH {
-      background: url(../img/green.jpg) no-repeat center center;
+  .gal3 {
+      background: url(../img/gal3.jpg) no-repeat center center;
       position: relative;
       display: inline-block;
-      padding-top: 20%;
-      padding-bottom: 20%;
-      background-size: cover;
+      background-size: auto;
+      height: 450px;
+  }
+
+  .gal4 {
+      background: url(../img/gal4.jpg) no-repeat center center;
+      position: relative;
+      display: inline-block;
+
+      height: 400px;
   }
 
   .banner-product {
@@ -342,11 +356,11 @@ section.features .section-heading p {
   /* Kate's Team Page Custom CSS*/
 
   .about-block, .team-block {
-    padding: 50px 100px;
+    padding: 50px 11%;
   }
 
   .intro-header-team {
-    background: url(../img/cats.jpeg) no-repeat center center;
+    background: url(https://cdn-images-1.medium.com/max/600/1*QXbsXoFNyj5SQT4D6TdLpA@2x.png) no-repeat center center;
   }
 
   .apply {
@@ -400,9 +414,9 @@ section.features .section-heading p {
       font-size:17px
   }
 /*for form*/
-  .center {
+/*  .center {
     margin-top:50px;
-}
+}*/
 
 .modal-header {
 	padding-bottom: 5px;
@@ -641,16 +655,7 @@ row.no-gutters {
 }
 
 /*Simon Added #2*/
-.video-main {
-align-content: center;
-width: 100% auto;
-height: 500px;
-background-size: cover;
-}
 
-.video-main video {
-  width: 100%;
-}
 
 section[role="banner"] {
   position: relative;
@@ -673,6 +678,25 @@ section[role="banner"] {
   width: 100%;
   min-width: 50%;
   min-height: 20%;
+}
+
+#product-video {
+  width: 110%;
+  max-width: 500px;
+  display: block;
+  height: 470px;
+  overflow: hidden;
+}
+#product-video video {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  min-width: 50%;
+  min-height: 50%;
 }
 
 .counter {

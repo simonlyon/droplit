@@ -588,8 +588,7 @@ mark {
 }
 .img-fluid {
     max-width: 100%;
-
-    /*height: auto*/
+    height: auto
 }
 .img-thumbnail {
     padding: .25rem;
@@ -1395,10 +1394,10 @@ pre code {
     }
     .col-sm-4 {
         -webkit-box-flex: 0;
-        -webkit-flex: 0 0 33.333333%;
-        -ms-flex: 0 0 33.333333%;
-        flex: 0 0 33.333333%;
-        max-width: 33.333333%
+        -webkit-flex: 0 0 33%;
+        -ms-flex: 0 0 33%;
+        flex: 0 0 33%;
+        max-width: 33%
     }
     .col-sm-5 {
         -webkit-box-flex: 0;
@@ -1831,10 +1830,10 @@ pre code {
     }
     .col-lg-4 {
         -webkit-box-flex: 0;
-        -webkit-flex: 0 0 33.333333%;
-        -ms-flex: 0 0 33.333333%;
-        flex: 0 0 33.333333%;
-        max-width: 33.333333%
+        -webkit-flex: 0 0 33%;
+        -ms-flex: 0 0 33%;
+        flex: 0 0 33%;
+        max-width: 33%
     }
     .col-lg-5 {
         -webkit-box-flex: 0;

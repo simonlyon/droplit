@@ -183,6 +183,9 @@ p.copyright {
 
 
 /* Kate's custom CSS */
+.navbar-brand {
+  margin-left: -15px
+}
 
 .intro-message > h2, .intro-message > p {
   color: White;
@@ -211,31 +214,36 @@ p.copyright {
       border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   }
 
-  .blueSH {
-      background: url(../img/blue.jpg) no-repeat center center;
+  .gal1 {
+      background: url(../img/gal1.jpg) no-repeat center center;
       position: relative;
       display: inline-block;
-      padding-top: 20%;
-      padding-bottom: 20%;
-      background-size: cover;
+      background-size: auto;
+      height: 450px;
   }
 
-  .redSH {
-      background: url(../img/red.jpg) no-repeat center center;
+  .gal2 {
+      background: url(../img/gal2.jpg) no-repeat center center;
       position: relative;
       display: inline-block;
-      padding-top: 20%;
-      padding-bottom: 20%;
-      background-size: cover;
+      background-size: auto;
+      height: 450px;
   }
 
-  .greenSH {
-      background: url(../img/green.jpg) no-repeat center center;
+  .gal3 {
+      background: url(../img/gal3.jpg) no-repeat center center;
       position: relative;
       display: inline-block;
-      padding-top: 20%;
-      padding-bottom: 20%;
-      background-size: cover;
+      background-size: auto;
+      height: 450px;
+  }
+
+  .gal4 {
+      background: url(../img/gal4.jpg) no-repeat center center;
+      position: relative;
+      display: inline-block;
+
+      height: 400px;
   }
 
   .banner-product {
@@ -348,7 +356,7 @@ section.features .section-heading p {
   /* Kate's Team Page Custom CSS*/
 
   .about-block, .team-block {
-    padding: 50px 100px;
+    padding: 50px 11%;
   }
 
   .intro-header-team {

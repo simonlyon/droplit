@@ -292,8 +292,16 @@ p.copyright {
     width: 175px;
   }
 
+  .btn-WP {
+    width: 230px;
+  }
+
   .btn-name {
     font-size: 17px;
+  }
+
+  .WP-name {
+    font-size: 15px;
   }
 
   placeholder {

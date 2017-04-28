@@ -103,7 +103,6 @@ p {
 }
 
 .mission-page {
-  padding-top: 0;
   padding-bottom: 150px;
 }
 
@@ -212,7 +211,7 @@ p.copyright {
       background: url(../img/gal1.jpg) no-repeat center center;
       position: relative;
       display: inline-block;
-      background-size: auto;
+      background-size: cover;
       height: 450px;
   }
 
@@ -220,7 +219,7 @@ p.copyright {
       background: url(../img/gal2.jpg) no-repeat center center;
       position: relative;
       display: inline-block;
-      background-size: auto;
+      background-size: cover;
       height: 450px;
   }
 
@@ -228,16 +227,8 @@ p.copyright {
       background: url(../img/gal3.jpg) no-repeat center center;
       position: relative;
       display: inline-block;
-      background-size: auto;
+      background-size: cover;
       height: 450px;
-  }
-
-  .gal4 {
-      background: url(../img/gal4.jpg) no-repeat center center;
-      position: relative;
-      display: inline-block;
-
-      height: 400px;
   }
 
   .banner-product {
@@ -280,7 +271,7 @@ p.copyright {
 
   .features-product {
     text-align: center;
-    padding: 150px 100px 150px 100px;
+    padding: 150px 100px 0  100px;
   }
 
   .feature-icon {

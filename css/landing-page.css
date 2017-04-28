@@ -50,6 +50,7 @@ p {
 
 .intro-message {
     position: relative;
+    width: 25%;
     padding-top: 20%;
     padding-bottom: 20%;
 }
@@ -60,20 +61,12 @@ p {
     padding-bottom: 15%;
 }
 
-.intro-message > h1 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
-
 .intro-divider {
     width: 400px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
 
 @media(max-width:767px) {
     .intro-message {
@@ -110,6 +103,7 @@ p {
 }
 
 .mission-page {
+  padding-top: 0;
   padding-bottom: 150px;
 }
 
@@ -192,7 +186,7 @@ p.copyright {
 }
 
   .container-product {
-    width: 550px;
+    width:50%;
     display: inline-block;
   }
 

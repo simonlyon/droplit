@@ -4092,8 +4092,8 @@ tbody.collapse.show {
         flex-direction: row
     }
     .navbar-toggleable-md .navbar-nav .nav-link {
-        padding-right: .5rem;
-        padding-left: .5rem
+        padding-right: 1.5rem;
+        padding-left: 1.5rem
     }
     .navbar-toggleable-md>.container {
         display: -webkit-box;
@@ -5838,7 +5838,7 @@ button.close {
     vertical-align: text-top!important
 }
 .bg-faded {
-    background-color: rgba(247,247,247,0)
+    background-color: White
 }
 .bg-primary {
     background-color: #0275d8!important

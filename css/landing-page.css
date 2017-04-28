@@ -493,12 +493,12 @@ button.close {
   }
 
   .home-hero {
-    background: url(../img/homepage_hero_2.jpg) no-repeat center center;
+    background: url(../img/productpage_hero.jpg) no-repeat center center;
     background-size: cover;
   }
 
   .product-hero {
-    background: url(../img/productpage_hero.jpg) no-repeat center center;
+    background: url(../img/homepage_hero_2.jpg) no-repeat center center;
     background-size: cover;
   }
 

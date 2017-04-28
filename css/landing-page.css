@@ -102,6 +102,14 @@ p {
     padding: 150px 0 0 0;
 }
 
+.vert-middle {
+  padding-top: 5%;
+}
+
+.vert-middle-product {
+  padding-top: 10%;
+}
+
 .mission-page {
   padding-bottom: 150px;
 }

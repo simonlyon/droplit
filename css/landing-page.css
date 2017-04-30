@@ -693,6 +693,18 @@ section[role="banner"] {
   min-height: 20%;
 }
 
+#product-video video {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    min-width: 50%;
+    min-height: 50%;
+}
+
 .counter {
   background-color: #ffffff;
   border-radius: 5px;

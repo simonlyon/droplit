@@ -192,6 +192,10 @@ p.copyright {
   color: White;
 }
 
+.hero-message > h2, .hero-message > p {
+  color: rgba(59,176,203, .9);
+}
+
   .container-product {
     width:50%;
     display: inline-block;
@@ -505,6 +509,9 @@ button.close {
     background: url(../img/mission_hero.jpg) no-repeat center center;
     background-size: cover;
   }
+  .blog-hero {
+    background: url(../img/blog.jpg) no-repeat center center;
+  }
 
   .intro-header-1 {
     padding-top: 150px;
@@ -757,15 +764,3 @@ section[role="banner"] {
     text-decoration: none;
     font-size: 36px;
   }
-
-  .post-subtitle > a {
-    font-size: 20px;
-    text-transform: uppercase;
-    }
-
-  .post-subtitle > a:hover {
-      color: #B9E2ED;
-      text-decoration: none;
-      font-size: 20px;
-      text-transform: uppercase;
-    }

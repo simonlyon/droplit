@@ -192,6 +192,10 @@ p.copyright {
   color: White;
 }
 
+.hero-message > h2, .hero-message > p {
+  color: rgba(59,176,203, .9);
+}
+
   .container-product {
     width:50%;
     display: inline-block;
@@ -505,6 +509,9 @@ button.close {
     background: url(../img/mission_hero.jpg) no-repeat center center;
     background-size: cover;
   }
+  .blog-hero {
+    background: url(../img/blog.jpg) no-repeat center center;
+  }
 
   .intro-header-1 {
     padding-top: 150px;
@@ -661,13 +668,18 @@ row.no-gutters {
 section[role="banner"] {
   position: relative;
   width: 100%;
-  height: 500px
+}
+
+.home-video {
+  position: relative;
+  width: 100%;
 }
 #wrapper-video {
   width: 100%;
   overflow: hidden;
   display: block;
-  height: 500px;
+  height: 30em;
+  z-index: 1;
 }
 #wrapper-video video {
   position: relative;
@@ -681,28 +693,20 @@ section[role="banner"] {
   min-height: 20%;
 }
 
-#product-video {
-  width: 110%;
-  max-width: 500px;
-  display: block;
-  height: 470px;
-  overflow: hidden;
-}
 #product-video video {
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  width: 100%;
-  min-width: 50%;
-  min-height: 50%;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    min-width: 50%;
+    min-height: 50%;
 }
 
 .counter {
   background-color: #ffffff;
-  padding: 20px 0;
   border-radius: 5px;
 }
 .count-title {
@@ -712,7 +716,8 @@ section[role="banner"] {
   margin-bottom: 0;
   text-align: center;
 }
-.count-text { font-size: 13px;
+.count-text {
+  font-size: 13px;
   font-weight: normal;
   margin-top: 10px;
   margin-bottom: 0;
@@ -723,3 +728,51 @@ section[role="banner"] {
   float: none;
   display: table;
   color: #4ad1e5; }
+
+  .overlay-desc {
+    background: rgba(0,0,0,0);
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    z-index: 100;
+  }
+
+  .overlay-desc > h2, .overlay-desc > h1, .overlay-desc > h3 {
+    color: White;
+    text-align: center;
+  }
+
+  /*.overlay-desc > i {
+    margin-left: 48%;
+  }*/
+
+  /*Blog page*/
+
+  .previews {
+    padding-top: 100px;
+  }
+
+  .preview-sep {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+.blog1 {
+  font-size: 36px;
+}
+
+.post-title > a {
+    font-size: 36px;
+  }
+
+.post-title > a:hover {
+    color: #B9E2ED;
+    text-decoration: none;
+    font-size: 36px;
+  }

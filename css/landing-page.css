@@ -723,3 +723,42 @@ section[role="banner"] {
   float: none;
   display: table;
   color: #4ad1e5; }
+
+  /*Blog page*/
+
+  .previews {
+    padding-top: 100px;
+  }
+
+  .preview-sep {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+.blog1 {
+  font-size: 36px;
+}
+
+.post-title > a {
+    font-size: 36px;
+  }
+
+.post-title > a:hover {
+    color: #B9E2ED;
+    text-decoration: none;
+    font-size: 36px;
+  }
+
+  .post-subtitle > a {
+    font-size: 20px;
+    text-transform: uppercase;
+    }
+
+  .post-subtitle > a:hover {
+      color: #B9E2ED;
+      text-decoration: none;
+      font-size: 20px;
+      text-transform: uppercase;
+    }

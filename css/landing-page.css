@@ -243,6 +243,13 @@ p.copyright {
       height: 450px;
   }
 
+  .infographic {
+      background: url(../img/mission_infographic.jpg) no-repeat center center;
+      position: relative;
+      background-size: auto;
+      height: 580px;
+  }
+
   .banner-product {
       padding: 100px 0;
       color: #f8f8f8;
@@ -501,7 +508,7 @@ button.close {
   }
 
   .product-hero {
-    background: url(../img/homepage_hero_2.jpg) no-repeat center center;
+    background: url(../img/homepage_hero_3.jpg) no-repeat center center;
     background-size: cover;
   }
 

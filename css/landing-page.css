@@ -587,6 +587,7 @@ row.no-gutters {
 
 /*for mobile*/
 
+
 @media only screen and (max-width: 768px) {
   .navbar {
       background: rgb(247,247,247); //
@@ -622,7 +623,7 @@ row.no-gutters {
 }
 
   .about-block, .team-block {
-    padding: 10%;
+    padding: 5%;
   }
 
   .intro-header-team {
@@ -636,6 +637,14 @@ row.no-gutters {
 
   .features-product {
     padding: 75px;
+  }
+
+  .content-section-b, .content-section-a, section.download {
+    padding: 25px 0 0 0;
+  }
+
+  .intro-header-team {
+    padding: 10% 0;
   }
 
   h1 {
@@ -655,6 +664,62 @@ row.no-gutters {
     font-size: 16px;
   }
 
+  .intro-message {
+    margin-left: -10%;
+  }
+
+}
+
+@media only screen and (max-width: 615px) {
+  .intro-message {
+    margin-left: -5%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .intro-message {
+    margin-left: -3%;
+  }
+
+  .home-hero {
+    background-size: 120%;
+    background-position: right;
+    padding-bottom: 0;
+    overflow: hidden;
+  }
+
+  .intro-divider-product {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .fa-5x {
+    font-size: 10px;
+  }
+
+  .btn-name {
+    font-size: 14px;
+  }
+
+  .btn-body {
+    width: 150px;
+  }
 }
 
 /*for copy and image stacking at smaller screen*/
@@ -751,6 +816,17 @@ section[role="banner"] {
   .overlay-desc > h2, .overlay-desc > h1, .overlay-desc > h3 {
     color: White;
     text-align: center;
+  }
+
+  @media only screen and (max-width: 660px) {
+    .fa-5x {
+      font-size: 3em;
+    }
+
+    .water {
+      height: 100%;
+    }
+
   }
 
   /*.overlay-desc > i {

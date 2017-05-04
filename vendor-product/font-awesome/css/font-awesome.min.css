@@ -2330,3 +2330,13 @@
     overflow: visible;
     clip: auto
 }
+
+@media only screen and (max-width: 660px) {
+  .fa-5x {
+    font-size: 4em;
+  }
+
+  .count-title {
+    font-size: 36px;
+    margin-top: 0;
+  }
